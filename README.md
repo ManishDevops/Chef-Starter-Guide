@@ -16,6 +16,8 @@ This guide contains step by step description of Chef Installation and some basic
     3. High Availability Deployment
       * 8 Cores
       * 16 GB RAM
+ 
+For more details on prerequisites, click [here](https://docs.chef.io/chef_system_requirements.html)
 
 I will be discussing on premises Chef for a standalone deployment.
 
@@ -34,7 +36,7 @@ I will be using Red Hat Enterprise Linux 6 server for this exercise.
 
 
 
-Contact me on manishmehraalm@gmail.com for any kind of personal assistance on Chef.
+Contact me on manish-devops@gmail.com for any kind of personal assistance on Chef.
 
 Please feel free to share your feedback.
 
