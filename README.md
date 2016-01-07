@@ -3,7 +3,7 @@ A beginner’s guide for Chef
 This guide contains step by step description of Chef Installation and some basic operations involved in Chef.  
  
 
-# Chef Server Prerequisites: 
+### Chef Server Prerequisites: 
   * Architecture of the server need to be 64 bit
   
   On premises Chef server can be installed in three ways
@@ -19,7 +19,7 @@ This guide contains step by step description of Chef Installation and some basic
 
 I will be discussing on premises Chef for a standalone deployment.
 
-# Chef can be installed on following servers:
+### Chef can be installed on following servers:
     1. Ubuntu
      * Ubuntu Linux 14.04
      * Ubuntu Linux 12.04
