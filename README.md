@@ -19,15 +19,14 @@ This guide contains step by step description of Chef Installation and some basic
 I will be discussing on premises Chef for a standalone deployment.
 
 Chef can be installed on following servers:
- 1. Ubuntu
-  * Ubuntu Linux 14.04
-  * Ubuntu Linux 12.04
-  * Ubuntu Linux 10.04
-  
- 2. Red Hat Enterprise Linux
-  * Red Hat Enterprise Linux 7
-  * Red Hat Enterprise Linux 6
-  * Red Hat Enterprise Linux 5
+  1. Ubuntu
+   * Ubuntu Linux 14.04
+   * Ubuntu Linux 12.04
+   * Ubuntu Linux 10.04
+  2. Red Hat Enterprise Linux
+   * Red Hat Enterprise Linux 7
+   * Red Hat Enterprise Linux 6
+   * Red Hat Enterprise Linux 5
 
 I will be using Red Hat Enterprise Linux 6 server for this exercise.
 
