@@ -7,17 +7,20 @@ This guide contains step by step description of Chef Installation and some basic
   * Architecture of the server need to be 64 bit
   
   On premises Chef server can be installed in three ways
-    1. Standalone Deployment
+    1. [Standalone Deployment](https://downloads.chef.io/chef-server/) (free) 
       * 4 Cores
       * 4 GB RAM
-    2. Tiered Deploymment
+    2. [Tiered Deploymment](https://docs.chef.io/install_server_tiered.html) (Pricing involved)
       * 8 Cores
       * 16 GB RAM
-    3. High Availability Deployment
+    3. [High Availability Deployment](https://www.chef.io/high-availability/) [(Pricing involved)](https://www.chef.io/pricing/)
       * 8 Cores
       * 16 GB RAM
- 
 For more details on prerequisites, click [here](https://docs.chef.io/chef_system_requirements.html)
+ 
+###Pricing:
+     Chef server can be used for free and the premium features are free for 25 nodes.
+
 
 I will be discussing on premises Chef for a standalone deployment.
 
