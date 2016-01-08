@@ -17,6 +17,10 @@ This guide contains step by step description of Chef Installation and some basic
       * 8 Cores
       * 16 GB RAM
 For more details on prerequisites, click [here](https://docs.chef.io/chef_system_requirements.html)
+Reference links for 
+[Standalone Deployment] (https://downloads.chef.io/chef-server/)
+[Tiered Deploymment] (https://docs.chef.io/install_server_tiered.html) and 
+[High Availability Deployment] (https://www.chef.io/high-availability/)
  
 ###Pricing:
      Chef server can be used for free and the premium features are free for 25 nodes.
