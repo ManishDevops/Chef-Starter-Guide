@@ -7,7 +7,7 @@ This guide contains step by step description of Chef Installation and some basic
   * Architecture of the server need to be 64 bit
   
   On premises Chef server can be installed in three ways
-    1. Click [Standalone Deployment](https://downloads.chef.io/chef-server/) (free) 
+    1. [StandaloneDeployment](https://downloads.chef.io/chef-server/) (free) 
       * 4 Cores
       * 4 GB RAM
     2. Click [Tiered Deploymment](https://docs.chef.io/install_server_tiered.html) (Pricing involved)
