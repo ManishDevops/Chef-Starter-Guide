@@ -39,9 +39,11 @@ I will be discussing on premises Chef for a standalone deployment.
      * Red Hat Enterprise Linux 5
 
 I will be using Red Hat Enterprise Linux 6 server for this exercise.
-
-
-
+ 
+ 
+  
+  
+  
 
 Contact me on manish-devops@gmail.com for any kind of personal assistance on Chef.
 
