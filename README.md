@@ -18,7 +18,7 @@ This guide contains step by step description of Chef Installation and some basic
       * 16 GB RAM
 For more details on prerequisites, click [here](https://docs.chef.io/chef_system_requirements.html). 
 To know more click on the reference links for 
-[Standalone Deployment] (https://downloads.chef.io/chef-server/)
+[Standalone Deployment] (https://downloads.chef.io/chef-server/), 
 [Tiered Deploymment] (https://docs.chef.io/install_server_tiered.html) and 
 [High Availability Deployment] (https://www.chef.io/high-availability/)
  
