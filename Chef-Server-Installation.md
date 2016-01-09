@@ -9,9 +9,9 @@ I am using RHEL6 server for this exercise. You need to follow following steps to
 ### 1. Download Chef Server
 #####i. Install wget on your server
 For RHEL server, execute
-          sudo yum install wget -y 
+>sudo yum install wget -y 
 For Ubuntu server, execute
-          sudo apt-get install wget
+>sudo apt-get install wget
 
 #####ii. Choose appropriate chef server version
 Go to the [download link](https://downloads.chef.io/chef-server/), choose the Operating System and version of chef server you want to use.
