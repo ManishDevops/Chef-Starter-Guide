@@ -48,7 +48,8 @@ We have installed chef but there is no user who can access it yet. We are going 
           chef-server-ctl user-create USERNAME FIRST_NAME LAST_NAME EMAIL PASSWORD -f FILENAME
           
           
-Example:
+**Example:**
+
 If we want to use following parameters
 
           USERNAME = admin
