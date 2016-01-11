@@ -1,3 +1,16 @@
+##Introduction: 
+Chef follows thin server architecture model. Chef-server acts as a central repository or a hub of information. This information (viz. Cookbooks and policy settings) is pushed to chef server by Chef users from [workstations](https://github.com/ManishDevops/Chef-Starter-Guide/blob/master/Chef-Workstation-Setup.md).  Click [this](https://docs.chef.io/chef_overview.html) to know more about different chef components.
+
+Before going forward please ensure that your chef server is getting installed on one of the following supported platforms:
+
+|S.No.|Platform|Architecture|Version|
+|:------|:-----|:-------|:-------|
+|1|Cent OS|64 bit| 5.x, 6.x, 7.x|
+|2|Oracle Linux|64 bit|5.x,6.x|
+|3|Red Hat Enterprise Linux|64 bit|5.x, 6.x, 7.x|
+|4|Ubuntu|64 bit|10.04 LTS, 12.04 LTS, 14.04 LTS|
+
+
 ## Steps to Install Chef Server
 You need to follow following four steps to install chef server.  
 
@@ -60,11 +73,32 @@ If we want to use following parameters:
           EMAIL = administrator@chefexample.com
           PASSWORD = password
           FILENAME = admin.pem
-This is how our create user command should look like:
+This is how your create user command should look like:
 
           chef-server-ctl user-create admin admin administrator administrator@chefexample.com password -f admin.pem
 
-Now we have a user named *admin* and the password for this user is *password*. Flag -f is used to generate admin.pem file in the current directory. *admin.pem* is a private RSA key for user admin. This key will be used for authentication later on.  
+Now we have a user named *admin* and the password for this user is *password*. Flag -f is used to generate *admin.pem* file in the current directory. *admin.pem* is a private RSA key for user *admin*. This key will be used for authentication later on.  
 
 ### 4. Create Organization
+Organization is used for Role Based Access Control. You can have multiple organizations inside one Chef server. Additional organizations can be created after this initial chef-server setup. To know more about organizations click [here](https://docs.chef.io/server_orgs.html). Execute following command to create organization:
 
+          chef-server-ctl org-create SHORTNAME LONGNAME --association_user USERNAME -f FILENAME
+          
+**Example**
+If we want to use following parameters:
+
+          SHORTNAME: primaryorg
+          LONGNAME: Chef Organization
+          USERNAME: admin (USERNAME of the user which we created on last step)
+          FILENAME: primaryorg-validator.pem
+
+This is how your create organization command should look like:
+
+          chef-server-ctl org-create primaryorg "Chef Organization" admin -f primaryorg-validator.pem
+          
+Voila! Your chef server is ready to use. Now you need to create workstation.
+          
+          
+          
+          
+          
