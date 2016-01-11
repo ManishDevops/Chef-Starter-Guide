@@ -43,17 +43,25 @@ This will start all required services. It typically takes around 5 mins to finis
 At this state your Chef server is installed and functional. You can check "http://IP_of_chef_server". It should give you chef server home page.
 
 ### 3. Create User
-Following command will create administrator user for chef and generate admin.pem file.
+We have installed chef but there is no user who can access it yet. We are going to create *admin* user for chef, this user will be later used to create organization. Following command will create administrator user for chef.
 
-          chef-server-ctl user-create *USERNAME FIRST_NAME LAST_NAME EMAIL PASSWORD*
+          chef-server-ctl user-create USERNAME FIRST_NAME LAST_NAME EMAIL PASSWORD -f FILENAME
           
-          USERNAME = 
-          FIRST_NAME = 
-          LAST_NAME =
-          EMAIL = 
-          PASSWORD = 
           
 Example:
+If we want to use following parameters
 
-          
+          USERNAME = admin
+          FIRST_NAME = admin 
+          LAST_NAME = administrator
+          EMAIL = administrator@chefexample.com
+          PASSWORD = password
+          FILENAME = admin.pem
+This is how our create user command should look like:
+
+          chef-server-ctl user-create admin admin administrator administrator@chefexample.com password -f admin.pem
+
+Now we have a user named *admin* and the password for this user is *password*. Flag -f is used to generate admin.pem file in the current directory. *admin.pem* is a private RSA key for user admin. This key will be used for authentication later on.  
+
+### 4. Create Organization
 
