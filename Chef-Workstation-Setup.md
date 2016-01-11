@@ -34,7 +34,7 @@ After installation is finished, open command prompt and run following command
 
     chef verify
     
-This command will run verification for 'berkshelf', 'test-kitchen', 'chef-dk', 'chef-provisioning',  'chefspec', 'openssl' etc. Once the installation is finished properly, above command should pass successfully for all components.
+This command will run verification for 'test-kitchen', 'tk-policyfile-provisioner', 'chef-client', 'chef-provisioning', 'chefspec', 'generated-cookbooks-pass-chefspec', 'rubocop', 'fauxhai', 'knife-spork', 'kitchen-vagrant', 'package installation', 'openssl', 'inspec'. *chef verify* should pass successfully for all components.
 
 This [link](https://docs.chef.io/install_dk.html#uninstall-the-chef-dk-title) gives a good description of installing and uninstallting Chef Development Kit.
 
@@ -44,7 +44,18 @@ This [link](https://docs.chef.io/install_dk.html#uninstall-the-chef-dk-title) gi
 You can either install git and clone chef-repo from [this](https://github.com/chef/chef-repo) location or you can directly click on [download zip](https://github.com/chef/chef-repo/archive/master.zip) and extract it to any directory.
 
 ##### 4. Configure chef-repo
-Once the above downloaded package is extracted (I have extracted it in C drive so my folder structure look like this **C:/chef-repo**
+Once the above downloaded package is extracted (I have extracted it in C drive so my folder structure looks like this **C:/chef-repo**), goto *C:/chef-repo* and create a blank folder named **.chef**.
+
+Windows user can run following command from their administrator command prompt
+
+    cd C:\chef-repo
+    mkdir .chef
+Once *.chef* folder is created, paste **admin.pem** and **primaryorg-validator.pem** files into this folder. To copy these files you will have to go to your chef server and check in the directory where you installed chef server. 
+
+**Note:** We created these two pem files while creating user and organization.
+
+
+
 
 
 
