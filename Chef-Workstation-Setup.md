@@ -13,3 +13,26 @@ Click [here](https://docs.chef.io/supported_platforms.html) to know more about s
 
 ### Chef Workstation Installation
 Many developers use Chef Management Console in this process. This will make your process easier and you will get a webui but it is a Featured Component. If you want to use Chef Management Console then you can use 25 nodes for free and to use more than 25 nodes, you will have to purchase license.I am not going to use Chef Management Console in my process.
+
+
+You need to follow following steps to install workstation.
+
+    1. Download Chef Development Kit
+    2. Install Chef Development Kit
+    3. Download chef-repo
+    4. Configure knife.rb
+    
+##### 1. Download Chef Development Kit
+Go to [this](https://downloads.chef.io/chef-dk/) link and select chef dk according to your workstation machine. 
+
+
+##### 2. Install Chef Development Kit
+Follow the steps in the installer and install the Chef development kit to your machine. The Chef development kit is installed to /opt/chefdk/ on UNIX and Linux systems. 
+
+
+
+
+
+
+
+
