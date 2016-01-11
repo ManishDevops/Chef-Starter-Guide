@@ -1,4 +1,4 @@
-# Chef-Starter-Guide
+# Getting Started With Chef
 A beginner’s guide for Chef
 This guide contains step by step description of Chef Installation and some basic operations involved in Chef.  
  
