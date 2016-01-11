@@ -26,4 +26,34 @@ Go to the [download link](https://downloads.chef.io/chef-server/), choose the Op
           
           
 ### 2. Install Chef Server
+This activity needs root access. If  you are not executing this command from the directory where your chef package recides then you will have to specify full path.
+For RedHat:
+
+          sudo rpm -Uvh chef-server-core-12.3.1-1.el5.x86_64.rpm
+
+For Ubuntu:
+This will install chef server. It typically takes less than a min.
+
+          dpkg -i chef-server-core-12.3.1-1.el5.x86_64.deb
+          
+
+This will start all required services. It typically takes around 5 mins to finish.
+
+          chef-server-ctl reconfigure
+At this state your Chef server is installed and functional. You can check "http://IP_of_chef_server". It should give you chef server home page.
+
+### 3. Create User
+Following command will create administrator user for chef and generate admin.pem file.
+
+          chef-server-ctl user-create *USERNAME FIRST_NAME LAST_NAME EMAIL PASSWORD*
+          
+          USERNAME = 
+          FIRST_NAME = 
+          LAST_NAME =
+          EMAIL = 
+          PASSWORD = 
+          
+Example:
+
+          
 
