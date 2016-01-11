@@ -42,8 +42,9 @@ Copy the URL of appropriate Chef-Server installable and use it as follows
           
 ### 2. Install Chef Server
 This activity needs root access. If  you are not executing this command from the directory where your chef package recides then you will have to specify full path.
-For RedHat:
 
+For RedHat:
+This will install chef server. It typically takes less than a min.
           sudo rpm -Uvh chef-server-core-12.3.1-1.el5.x86_64.rpm
 
 For Ubuntu:
