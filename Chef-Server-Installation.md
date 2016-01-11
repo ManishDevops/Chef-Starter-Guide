@@ -98,7 +98,7 @@ This is how your create organization command should look like:
 
           chef-server-ctl org-create primaryorg "Chef Organization" admin -f primaryorg-validator.pem
           
-Voila! Your chef server is ready to use. Now you need to create workstation.
+Voila! Your chef server is ready to use. Now you need to install [workstation](https://github.com/ManishDevops/Chef-Starter-Guide/blob/master/Chef-Workstation-Setup.md).
           
           
           
