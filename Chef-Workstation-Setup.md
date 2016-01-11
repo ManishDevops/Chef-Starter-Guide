@@ -54,6 +54,9 @@ Once *.chef* folder is created, paste **admin.pem** and **primaryorg-validator.p
 
 **Note:** We created these two pem files while creating user and organization.
 
+##### 5. Configure knife.rb
+Goto *C:/chef-repo/.chef* folder and create **knife.rb** file in it. Insert following entries in this file:
+
 
 
 
