@@ -45,6 +45,7 @@ This activity needs root access. If  you are not executing this command from the
 
 For RedHat:
 This will install chef server. It typically takes less than a min.
+
           sudo rpm -Uvh chef-server-core-12.3.1-1.el5.x86_64.rpm
 
 For Ubuntu:
