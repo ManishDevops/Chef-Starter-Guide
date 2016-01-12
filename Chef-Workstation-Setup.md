@@ -69,7 +69,9 @@ Goto *C:/chef-repo/.chef* folder and create **knife.rb** file in it. Insert foll
 	cookbook_path            ["E:/chef-repo/cookbooks"]
 
 
+Replace hostname with yyour chef-server hostname. Save the file. Now your workstation can communicate with your chef-server. 
 
+Note: We will be using knife command here after. Either put the chef-repo folder location in your environment variable or execute all knife commands from *C:/chef-repo* directory.
 
 
 
