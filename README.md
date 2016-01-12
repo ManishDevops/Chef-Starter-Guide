@@ -38,7 +38,17 @@ I will be discussing on premises Chef for a standalone deployment.
      * Red Hat Enterprise Linux 6
      * Red Hat Enterprise Linux 5
 
-I will be using Red Hat Enterprise Linux 6 server for this exercise.
+
+
+Chef architecture consists of three components
+
+ 1. Chef Server
+ 2. Chef Workstation
+ 3. Chef Node
+I will be installing chef server in RHEL 6 machine. Workstation and nodes will be installed on windows machines. 
+
+
+
 
 
 Contact me on manish.devops@gmail.com for any kind of personal assistance on Chef.
