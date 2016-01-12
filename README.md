@@ -42,9 +42,11 @@ I will be discussing on premises Chef for a standalone deployment.
 
 Chef architecture consists of three components
 
- 1. Chef Server
- 2. Chef Workstation
- 3. Chef Node
+    1. Chef Server
+    2. Chef Workstation
+    3. Chef Node
+
+
 I will be installing chef server in RHEL 6 machine. Workstation and nodes will be installed on windows machines. 
 
 
