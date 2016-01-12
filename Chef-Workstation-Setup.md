@@ -57,6 +57,18 @@ Once *.chef* folder is created, paste **admin.pem** and **primaryorg-validator.p
 ##### 5. Configure knife.rb
 Goto *C:/chef-repo/.chef* folder and create **knife.rb** file in it. Insert following entries in this file:
 
+    current_dir = File.dirname(__FILE__)
+	log_level                :info
+	log_location             STDOUT
+	node_name                "admin"
+	client_key               "E:/chef-repo/.chef/admin.pem"
+	validation_client_name   "primaryorg-validator"
+	validation_key           "E:/chef-repo/.chef/primaryorg-validator.pem"
+	chef_server_url          "https://hostname/organizations/primaryorg"
+	syntax_check_cache_path  "#{ENV['HOME']}/^.chef/syntaxcache"
+	cookbook_path            ["E:/chef-repo/cookbooks"]
+
+
 
 
 
