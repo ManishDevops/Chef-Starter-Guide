@@ -47,7 +47,7 @@ Chef architecture consists of three components
     3. Chef Node
 
 
-I will be installing chef server in RHEL 6 machine. Workstation and nodes will be installed on windows machines. 
+I will be installing chef server on RHEL 6 machine. Workstation and nodes will be installed on windows machines. 
 
 
 
