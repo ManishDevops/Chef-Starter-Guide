@@ -46,7 +46,7 @@ In this situation, you need to download chef-client and keep it at some share fo
     knife bootstrap windows winrm IP -x username -P password --bootstrap-no-proxy domain --msi-url "Shared_Folder_Location"
 
 
-To check whether your node is bootstrapped or not, run following command from Chef-workstation(https://github.com/ManishDevops/Chef-Starter-Guide/blob/master/Chef-Workstation-Setup.md) C:/chef-repo directory
+To check whether your node is bootstrapped or not, run following command from [Chef-workstation](https://github.com/ManishDevops/Chef-Starter-Guide/blob/master/Chef-Workstation-Setup.md) C:/chef-repo directory
 
     knife node-list
 Your node name should appear when you execute this command.
