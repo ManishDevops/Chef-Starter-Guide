@@ -26,7 +26,7 @@ To know more click on the reference links for
      Chef server can be used for free and the premium features are free for 25 nodes.
 
 
-I will be discussing on premises Chef for a standalone deployment.
+I will be discussing on premises Chef for standalone deployment.
 
 ### Chef can be installed on following servers:
     1. Ubuntu
