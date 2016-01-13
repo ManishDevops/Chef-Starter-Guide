@@ -43,7 +43,7 @@ Chef architecture consists of three components
 
     1. Chef Server
     2. Chef Workstation
-    3. Chef Node
+    3. Chef Nodes
 
 We will discuss [Chef Server](https://github.com/ManishDevops/Chef-Starter-Guide/blob/master/Chef-Server-Installation.md), [Chef Workstation](https://github.com/ManishDevops/Chef-Starter-Guide/blob/master/Chef-Workstation-Setup.md) and [Chef Node](https://github.com/ManishDevops/Chef-Starter-Guide/blob/master/Chef-Node-Creation.md) in detail.
 
