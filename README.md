@@ -50,8 +50,7 @@ We will discuss [Chef Server](https://github.com/ManishDevops/Chef-Starter-Guide
 
 
 
-Contact me on manish.devops@gmail.com for any kind of personal assistance on Chef.
 
-Please feel free to share your feedback.
+Please feel free to share your feedback on manish.devops@gmail.com.
 
 Happy Learning.
